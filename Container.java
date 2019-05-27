@@ -3,7 +3,7 @@ package com.company;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
-@SavaTo(path="D:\\1.txt")
+@SaveTo(path="D:\\1.txt")
 public class Container {
     String text="...";
     @Saver
