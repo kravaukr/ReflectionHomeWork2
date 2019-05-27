@@ -10,7 +10,7 @@ public class Main {
 
         Class<?> cls = Container.class;
         Container obj = new Container();
-        String path = cls.getAnnotation(SavaTo.class).path();
+        String path = cls.getAnnotation(SaveTo.class).path();
         //String textContainer = obj.text;
         Method[] methods = cls.getDeclaredMethods();
         for (Method method: methods) {
